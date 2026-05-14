@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="12" fill="#e8f7f2"/>
+
+  <!-- Tablet device -->
+  <rect x="105" y="75" width="190" height="145" rx="14" fill="#334155"/>
+  <rect x="118" y="88" width="164" height="118" rx="8" fill="#f1f5f9"/>
+  <circle cx="200" cy="232" r="6" fill="#475569"/>
+
+  <!-- Screen content: book icon -->
+  <rect x="138" y="105" width="60" height="80" rx="6" fill="#2d9d78"/>
+  <rect x="202" y="105" width="60" height="80" rx="6" fill="#34b38a"/>
+  <line x1="200" y1="105" x2="200" y2="185" stroke="#e8f7f2" stroke-width="3"/>
+  <!-- Book lines -->
+  <line x1="148" y1="125" x2="188" y2="125" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="148" y1="135" x2="188" y2="135" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="148" y1="145" x2="175" y2="145" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="212" y1="125" x2="252" y2="125" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="212" y1="135" x2="252" y2="135" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="212" y1="145" x2="240" y2="145" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Graduation cap (top-right) -->
+  <g transform="translate(315, 90)">
+    <rect x="-32" y="-6" width="64" height="10" rx="3" fill="#2d9d78"/>
+    <polygon points="0,-24 -38,-6 0,6 38,-6" fill="#2d9d78"/>
+    <line x1="32" y1="-6" x2="38" y2="18" stroke="#2d9d78" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="38" cy="22" r="5" fill="#e08a2c"/>
+  </g>
+
+  <!-- Stars around tablet -->
+  <circle cx="80" cy="100" r="10" fill="#e08a2c" opacity="0.8"/>
+  <text x="80" y="105" font-size="12" text-anchor="middle" fill="white" font-family="Arial">★</text>
+
+  <circle cx="72" cy="175" r="8" fill="#2196a6" opacity="0.7"/>
+  <text x="72" y="180" font-size="10" text-anchor="middle" fill="white" font-family="Arial">★</text>
+
+  <circle cx="330" cy="170" r="10" fill="#7c5cbf" opacity="0.7"/>
+  <text x="330" y="175" font-size="12" text-anchor="middle" fill="white" font-family="Arial">★</text>
+
+  <!-- Play/learn button -->
+  <circle cx="200" cy="147" r="18" fill="#2d9d78" opacity="0.15"/>
+  <polygon points="194,138 194,156 214,147" fill="#2d9d78"/>
+
+  <!-- Bottom label -->
+  <rect x="130" y="248" width="140" height="22" rx="8" fill="#2d9d78"/>
+  <text x="200" y="264" font-size="12" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">Aprender é divertido!</text>
+</svg>

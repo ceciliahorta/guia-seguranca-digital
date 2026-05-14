@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Guia para pais e responsáveis sobre como guiar seus filhos com segurança e equilíbrio no mundo digital." />
+  <title>Crescendo com a Internet – Guia para Pais e Responsáveis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body class="light-mode">
+
+  <!-- TOP HEADER -->
+  <header class="top-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <button class="hamburger" id="hamburgerBtn" onclick="toggleSidebar()" aria-label="Abrir menu">☰</button>
+        <button class="sidebar-collapse-btn" id="sidebarCollapseBtn" onclick="toggleSidebarCollapse()" aria-label="Recolher menu lateral" title="Recolher menu lateral">‹</button>
+        <div class="header-brand">
+          <span class="header-icon">🛡️</span>
+          <div class="header-titles">
+            <span class="header-main">Crescendo com a Internet</span>
+            <span class="header-sub">Guia para pais e responsáveis</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-right">
+        <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+          <span class="toggle-icon">☀️</span>
+          <span class="toggle-label" id="toggleLabel">Claro</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SIDEBAR OVERLAY (mobile) -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+
+  <div class="page-wrapper">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <nav class="sidebar-nav">
+        <p class="nav-section-title">Sumário</p>
+
+        <!-- Apresentação -->
+        <div class="nav-accordion" id="acc-apresentacao">
+          <div class="nav-item" onclick="toggleAccordion('apresentacao'); navigateTo('apresentacao')">
+            <span class="nav-icon">👤</span>
+            <span>Apresentação do Guia</span>
+            <span class="nav-chevron">›</span>
+          </div>
+          <div class="nav-sub-items acc-body">
+            <a class="nav-sub" href="#objetivo" data-page="apresentacao">Objetivo do projeto</a>
+            <a class="nav-sub" href="#importancia" data-page="apresentacao">Importância da orientação</a>
+          </div>
+        </div>
+
+        <!-- Cap 1 – Fundamentos -->
+        <div class="nav-accordion" id="acc-fundamentos">
+          <div class="nav-item" onclick="toggleAccordion('fundamentos'); navigateTo('fundamentos')">
+            <span class="nav-icon">🔒</span>
+            <span>1. Fundamentos da Segurança Digital</span>
+            <span class="nav-chevron">›</span>
+          </div>
+          <div class="nav-sub-items acc-body">
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('fundamentos-11')" data-page="fundamentos-11">1.1 O que é segurança digital?</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('fundamentos-12')" data-page="fundamentos-12">1.2 Proteção de dados pessoais</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('fundamentos-13')" data-page="fundamentos-13">1.3 Importância de senhas seguras</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('fundamentos-14')" data-page="fundamentos-14">1.4 Como identificar riscos</a>
+          </div>
+        </div>
+
+        <!-- Cap 2 – Benefícios -->
+        <div class="nav-accordion" id="acc-beneficios">
+          <div class="nav-item" onclick="toggleAccordion('beneficios'); navigateTo('beneficios')">
+            <span class="nav-icon">🤍</span>
+            <span>2. Benefícios da Tecnologia para Crianças</span>
+            <span class="nav-chevron">›</span>
+          </div>
+          <div class="nav-sub-items acc-body">
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('beneficios-21')" data-page="beneficios-21">2.1 Desenvolvimento pessoal</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('beneficios-22')" data-page="beneficios-22">2.2 Comunicação e culturas</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('beneficios-23')" data-page="beneficios-23">2.3 Uso para educação</a>
+          </div>
+        </div>
+
+        <!-- Cap 3 – Riscos -->
+        <div class="nav-accordion" id="acc-riscos">
+          <div class="nav-item" onclick="toggleAccordion('riscos'); navigateTo('riscos')">
+            <span class="nav-icon">⚠️</span>
+            <span>3. Riscos da Internet</span>
+            <span class="nav-chevron">›</span>
+          </div>
+          <div class="nav-sub-items acc-body">
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('riscos-31')" data-page="riscos-31">3.1 Contato com desconhecidos</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('riscos-32')" data-page="riscos-32">3.2 Cyberbullying</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('riscos-33')" data-page="riscos-33">3.3 Dependência digital</a>
+          </div>
+        </div>
+
+        <!-- Cap 4 – Privacidade -->
+        <div class="nav-accordion" id="acc-privacidade">
+          <div class="nav-item" onclick="toggleAccordion('privacidade'); navigateTo('privacidade')">
+            <span class="nav-icon">🔐</span>
+            <span>4. Privacidade Digital</span>
+            <span class="nav-chevron">›</span>
+          </div>
+          <div class="nav-sub-items acc-body">
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('privacidade-41')" data-page="privacidade-41">4.1 O que é privacidade?</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('privacidade-42')" data-page="privacidade-42">4.2 Cuidado ao postar fotos</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('privacidade-43')" data-page="privacidade-43">4.3 Configurações de privacidade</a>
+          </div>
+        </div>
+
+        <!-- Cap 5 – Uso Saudável -->
+        <div class="nav-accordion" id="acc-uso-saudavel">
+          <div class="nav-item" onclick="toggleAccordion('uso-saudavel'); navigateTo('uso-saudavel')">
+            <span class="nav-icon">🕐</span>
+            <span>5. Uso Saudável da Tecnologia</span>
+            <span class="nav-chevron">›</span>
+          </div>
+          <div class="nav-sub-items acc-body">
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('uso-saudavel-51')" data-page="uso-saudavel-51">5.1 Gestão de tempo e saúde</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('uso-saudavel-52')" data-page="uso-saudavel-52">5.2 Equilíbrio online e offline</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('uso-saudavel-53')" data-page="uso-saudavel-53">5.3 Comportamento digital</a>
+          </div>
+        </div>
+
+        <!-- Cap 6 – Papel dos Pais -->
+        <div class="nav-accordion" id="acc-papel-pais">
+          <div class="nav-item" onclick="toggleAccordion('papel-pais'); navigateTo('papel-pais')">
+            <span class="nav-icon">👨‍👩‍👧</span>
+            <span>6. Papel dos Pais e Responsáveis</span>
+            <span class="nav-chevron">›</span>
+          </div>
+          <div class="nav-sub-items acc-body">
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('papel-pais-61')" data-page="papel-pais-61">6.1 Acompanhamento sem invasão</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('papel-pais-62')" data-page="papel-pais-62">6.2 Estabelecer regras e limites</a>
+            <a class="nav-sub nav-sub-numbered" onclick="navigateTo('papel-pais-63')" data-page="papel-pais-63">6.3 Incentivar uso positivo</a>
+          </div>
+        </div>
+
+        <div class="sidebar-note">
+          <span class="note-icon">⭐</span>
+          <div>
+            <strong>Lembre-se</strong>
+            <p>A tecnologia pode ser uma grande aliada no desenvolvimento das crianças quando usada com equilíbrio, segurança e orientação.</p>
+          </div>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- MAIN CONTENT – preenchido via JavaScript -->
+    <main class="main-content" id="mainContent"></main>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- JS: comportamento -->
+  <script src="js/navigation.js"></script>
+  <script src="js/sidebar.js"></script>
+  <script src="js/theme.js"></script>
+
+  <!-- JS: páginas por capítulo -->
+  <script src="js/pages/cap0-apresentacao.js"></script>
+  <script src="js/pages/cap1-fundamentos.js"></script>
+  <script src="js/pages/cap2-beneficios.js"></script>
+  <script src="js/pages/cap3-riscos.js"></script>
+  <script src="js/pages/cap4-privacidade.js"></script>
+  <script src="js/pages/cap5-uso-saudavel.js"></script>
+  <script src="js/pages/cap6-papel-pais.js"></script>
+
+  <!-- JS: inicialização (deve ser o último) -->
+  <script src="js/main.js"></script>
+</body>
+</html>

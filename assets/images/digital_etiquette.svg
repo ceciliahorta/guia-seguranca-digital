@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="12" fill="#e8f0fc"/>
+
+  <!-- Person 1 (left) -->
+  <circle cx="95" cy="135" r="28" fill="#3b7fd4" opacity="0.25"/>
+  <circle cx="95" cy="118" r="20" fill="#94a3b8"/>
+  <rect x="72" y="138" width="46" height="52" rx="14" fill="#94a3b8"/>
+
+  <!-- Person 2 (right) -->
+  <circle cx="305" cy="135" r="28" fill="#2d9d78" opacity="0.25"/>
+  <circle cx="305" cy="118" r="20" fill="#475569"/>
+  <rect x="282" y="138" width="46" height="52" rx="14" fill="#475569"/>
+
+  <!-- Chat bubbles (left person sending) -->
+  <g transform="translate(168,95)">
+    <rect x="-54" y="-22" width="108" height="44" rx="12" fill="#3b7fd4"/>
+    <polygon points="-22,22 -38,38 -6,22" fill="#3b7fd4"/>
+    <text x="0" y="3" font-size="18" text-anchor="middle" font-family="Arial">👍</text>
+    <text x="25" y="3" font-size="18" text-anchor="middle" font-family="Arial">😊</text>
+    <text x="-25" y="3" font-size="18" text-anchor="middle" font-family="Arial">❤️</text>
+  </g>
+
+  <!-- Chat bubble reply (right person) -->
+  <g transform="translate(232,175)">
+    <rect x="-54" y="-22" width="108" height="44" rx="12" fill="#2d9d78"/>
+    <polygon points="22,22 38,38 6,22" fill="#2d9d78"/>
+    <text x="0" y="3" font-size="18" text-anchor="middle" font-family="Arial">🌟</text>
+    <text x="-25" y="3" font-size="18" text-anchor="middle" font-family="Arial">🤝</text>
+    <text x="25" y="3" font-size="18" text-anchor="middle" font-family="Arial">✅</text>
+  </g>
+
+  <!-- Stars / positive vibes -->
+  <text x="185" y="48"  font-size="18" fill="#e08a2c" font-family="Arial" opacity="0.7">✨</text>
+  <text x="215" y="58"  font-size="14" fill="#e08a2c" font-family="Arial" opacity="0.5">✨</text>
+  <text x="162" y="60"  font-size="14" fill="#e08a2c" font-family="Arial" opacity="0.5">✨</text>
+
+  <!-- "Respeito" label -->
+  <rect x="128" y="238" width="144" height="28" rx="10" fill="#3b7fd4"/>
+  <text x="200" y="257" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">Respeito Online</text>
+
+  <!-- Connection line between people -->
+  <line x1="123" y1="175" x2="277" y2="175" stroke="#3b7fd4" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.3"/>
+</svg>

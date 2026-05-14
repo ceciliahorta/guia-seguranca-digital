@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="12" fill="#e8f7f2"/>
+
+  <!-- Balance pole -->
+  <rect x="193" y="80" width="14" height="165" rx="7" fill="#2d9d78"/>
+  <!-- Base triangle -->
+  <polygon points="200,245 158,272 242,272" fill="#2d9d78"/>
+  <!-- Horizontal bar -->
+  <rect x="55" y="110" width="290" height="14" rx="7" fill="#34b38a"/>
+  <!-- Pivot circle -->
+  <circle cx="200" cy="117" r="10" fill="#e8f7f2"/>
+
+  <!-- Left pan (Digital - phone) -->
+  <line x1="76" y1="124" x2="76" y2="155" stroke="#34b38a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="120" y1="124" x2="120" y2="155" stroke="#34b38a" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="98" cy="158" rx="44" ry="8" fill="#34b38a" opacity="0.5"/>
+  <rect x="68" y="158" width="60" height="72" rx="5" fill="#34b38a" opacity="0.25"/>
+  <!-- Phone on pan -->
+  <rect x="74" y="162" width="48" height="64" rx="8" fill="#334155"/>
+  <rect x="80" y="169" width="36" height="50" rx="5" fill="#3b7fd4" opacity="0.7"/>
+  <circle cx="98" cy="222" r="3" fill="#475569"/>
+  <!-- Screen content -->
+  <rect x="84" y="175" width="28" height="4" rx="2" fill="white" opacity="0.5"/>
+  <rect x="84" y="183" width="22" height="4" rx="2" fill="white" opacity="0.4"/>
+  <rect x="84" y="191" width="26" height="4" rx="2" fill="white" opacity="0.4"/>
+
+  <!-- Right pan (Offline - nature+ball) -->
+  <line x1="280" y1="124" x2="280" y2="138" stroke="#34b38a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="324" y1="124" x2="324" y2="138" stroke="#34b38a" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="302" cy="141" rx="44" ry="8" fill="#34b38a" opacity="0.5"/>
+  <rect x="258" y="141" width="88" height="88" rx="5" fill="#34b38a" opacity="0.15"/>
+  <!-- Tree -->
+  <rect x="295" y="195" width="14" height="34" rx="4" fill="#7c5cbf" opacity="0.5"/>
+  <ellipse cx="302" cy="185" rx="26" ry="30" fill="#2d9d78"/>
+  <ellipse cx="302" cy="175" rx="20" ry="22" fill="#34b38a"/>
+  <!-- Ball -->
+  <circle cx="268" cy="218" r="14" fill="#e08a2c"/>
+  <path d="M258 212 Q268 208 278 212" stroke="white" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M256 218 Q268 215 280 218" stroke="white" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- "vs" label -->
+  <circle cx="200" cy="175" r="18" fill="#e8f7f2" stroke="#34b38a" stroke-width="2"/>
+  <text x="200" y="181" font-size="13" font-weight="bold" fill="#2d9d78" text-anchor="middle" font-family="Arial, sans-serif">vs</text>
+</svg>

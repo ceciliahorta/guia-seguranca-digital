@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="12" fill="#fdeaea"/>
+
+  <!-- Phone device -->
+  <rect x="148" y="55" width="104" height="175" rx="14" fill="#334155"/>
+  <rect x="160" y="70" width="80" height="140" rx="8" fill="#f1f5f9"/>
+  <circle cx="200" cy="218" r="5" fill="#475569"/>
+  <rect x="183" y="60" width="34" height="5" rx="2.5" fill="#475569"/>
+
+  <!-- Screen: sad message being blocked -->
+  <!-- Negative comment -->
+  <rect x="165" y="82" width="70" height="24" rx="6" fill="#e05555" opacity="0.25"/>
+  <line x1="172" y1="91" x2="220" y2="91" stroke="#e05555" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="172" y1="99" x2="210" y2="99" stroke="#e05555" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Another negative -->
+  <rect x="165" y="116" width="70" height="24" rx="6" fill="#e05555" opacity="0.2"/>
+  <line x1="172" y1="125" x2="220" y2="125" stroke="#e05555" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="172" y1="133" x2="205" y2="133" stroke="#e05555" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- STOP hand / shield over screen -->
+  <circle cx="200" cy="148" r="30" fill="#e05555" opacity="0.9"/>
+  <text x="200" y="158" font-size="28" text-anchor="middle" fill="white" font-family="Arial, sans-serif">✋</text>
+
+  <!-- Sad face (left) -->
+  <circle cx="72" cy="130" r="38" fill="white" stroke="#e05555" stroke-width="2.5"/>
+  <circle cx="60" cy="120" r="5" fill="#475569"/>
+  <circle cx="84" cy="120" r="5" fill="#475569"/>
+  <path d="M58 148 Q72 136 86 148" stroke="#e05555" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Happy face (right, small — hope) -->
+  <circle cx="335" cy="200" r="26" fill="white" stroke="#2d9d78" stroke-width="2.5"/>
+  <circle cx="325" cy="194" r="4" fill="#475569"/>
+  <circle cx="345" cy="194" r="4" fill="#475569"/>
+  <path d="M323 210 Q335 220 347 210" stroke="#2d9d78" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Arrow left->right: transformation -->
+  <path d="M112 165 Q200 195 308 188" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+  <polygon points="305,183 315,188 305,193" fill="#94a3b8"/>
+
+  <!-- Print / evidence label -->
+  <rect x="276" y="55" width="100" height="32" rx="8" fill="#e05555"/>
+  <text x="326" y="76" font-size="12" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">Registre tudo</text>
+</svg>

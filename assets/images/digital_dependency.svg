@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="12" fill="#fdf3e3"/>
+
+  <!-- Large clock (center-left) -->
+  <circle cx="155" cy="145" r="90" fill="white" stroke="#e08a2c" stroke-width="6"/>
+  <circle cx="155" cy="145" r="82" fill="none" stroke="#fdf3e3" stroke-width="2"/>
+  <!-- Clock ticks -->
+  <line x1="155" y1="67" x2="155" y2="78" stroke="#e08a2c" stroke-width="3" stroke-linecap="round"/>
+  <line x1="155" y1="212" x2="155" y2="223" stroke="#e08a2c" stroke-width="3" stroke-linecap="round"/>
+  <line x1="68" y1="145" x2="79" y2="145" stroke="#e08a2c" stroke-width="3" stroke-linecap="round"/>
+  <line x1="231" y1="145" x2="242" y2="145" stroke="#e08a2c" stroke-width="3" stroke-linecap="round"/>
+  <!-- Clock hands -->
+  <line x1="155" y1="145" x2="155" y2="87" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <line x1="155" y1="145" x2="200" y2="145" stroke="#e08a2c" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="155" cy="145" r="6" fill="#334155"/>
+
+  <!-- Child silhouette (right side, looking at phone) -->
+  <circle cx="305" cy="120" r="24" fill="#94a3b8"/>
+  <rect x="283" y="144" width="44" height="50" rx="12" fill="#94a3b8"/>
+  <!-- Arms holding phone -->
+  <line x1="283" y1="158" x2="265" y2="175" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+  <line x1="327" y1="158" x2="345" y2="175" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Phone in hands -->
+  <rect x="276" y="170" width="58" height="90" rx="8" fill="#334155"/>
+  <rect x="283" y="178" width="44" height="74" rx="5" fill="#3b7fd4" opacity="0.8"/>
+  <!-- Screen glow -->
+  <rect x="283" y="178" width="44" height="74" rx="5" fill="url(#glow)" opacity="0.5"/>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Chain from clock to phone -->
+  <path d="M242 145 Q260 145 272 180" stroke="#e08a2c" stroke-width="3" stroke-dasharray="6 4" fill="none" opacity="0.6"/>
+
+  <!-- Alert: Z for sleep issues -->
+  <text x="340" y="95"  font-size="22" fill="#e08a2c" font-family="Arial" opacity="0.7">z</text>
+  <text x="352" y="76"  font-size="18" fill="#e08a2c" font-family="Arial" opacity="0.5">z</text>
+  <text x="362" y="60"  font-size="14" fill="#e08a2c" font-family="Arial" opacity="0.3">z</text>
+</svg>

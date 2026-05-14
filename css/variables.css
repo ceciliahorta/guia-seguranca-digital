@@ -1,0 +1,61 @@
+/* ===== RESET & BASE ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green: #2d9d78;
+  --green-light: #e8f7f2;
+  --green-accent: #34b38a;
+  --teal: #2196a6;
+  --blue: #3b7fd4;
+  --blue-light: #e8f0fc;
+  --red: #e05555;
+  --red-light: #fdeaea;
+  --orange: #e08a2c;
+  --orange-light: #fdf3e3;
+  --purple: #7c5cbf;
+  --purple-light: #f0ebfa;
+  --teal-light: #e6f5f7;
+  --gray-50: #f8fafc;
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
+  --gray-400: #94a3b8;
+  --gray-600: #475569;
+  --gray-700: #334155;
+  --gray-900: #0f172a;
+  --bg: #ffffff;
+  --sidebar-bg: #f8fafc;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,.08), 0 0.0625rem 0.125rem rgba(0,0,0,.06);
+  --shadow-md: 0 0.25rem 1rem rgba(0,0,0,.10);
+  --radius: 0.625rem;
+  --header-h: 3.75rem;
+  --sidebar-w: 16.25rem;
+  --max-w: 93.75rem;
+}
+
+.dark-mode {
+  --bg: #0f172a;
+  --sidebar-bg: #1e293b;
+  --text: #f1f5f9;
+  --text-muted: #94a3b8;
+  --border: #334155;
+  --gray-50: #1e293b;
+  --gray-100: #293548;
+  --gray-200: #334155;
+  --shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,.3);
+  --shadow-md: 0 0.25rem 1rem rgba(0,0,0,.3);
+  --green-light: #1a3d30;
+  --blue-light: #1a2840;
+  --red-light: #3d1a1a;
+  --orange-light: #3d2a0f;
+  --purple-light: #2a1f40;
+  --teal-light: #142830;
+}

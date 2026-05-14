@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="12" fill="#f0ebfa"/>
+
+  <!-- Stars background -->
+  <circle cx="50"  cy="55"  r="4" fill="#e08a2c" opacity="0.4"/>
+  <circle cx="90"  cy="35"  r="3" fill="#7c5cbf" opacity="0.3"/>
+  <circle cx="350" cy="45"  r="5" fill="#e08a2c" opacity="0.5"/>
+  <circle cx="370" cy="80"  r="3" fill="#3b7fd4" opacity="0.4"/>
+  <circle cx="330" cy="25"  r="4" fill="#2d9d78" opacity="0.4"/>
+  <circle cx="65"  cy="240" r="3" fill="#7c5cbf" opacity="0.3"/>
+  <circle cx="340" cy="250" r="4" fill="#e08a2c" opacity="0.4"/>
+
+  <!-- Rocket -->
+  <g transform="translate(185,148)">
+    <!-- Flame -->
+    <ellipse cx="0" cy="82" rx="16" ry="22" fill="#e08a2c" opacity="0.7"/>
+    <ellipse cx="-6" cy="88" rx="8" ry="14" fill="#e05555" opacity="0.6"/>
+    <!-- Rocket body -->
+    <rect x="-26" y="-40" width="52" height="96" rx="26" fill="#7c5cbf"/>
+    <!-- Nose cone -->
+    <path d="M-26 -40 Q0 -95 26 -40 Z" fill="#7c5cbf"/>
+    <path d="M-18 -40 Q0 -80 18 -40 Z" fill="#9b7dd4" opacity="0.5"/>
+    <!-- Window -->
+    <circle cx="0" cy="10" r="16" fill="#e6f5f7"/>
+    <circle cx="0" cy="10" r="11" fill="#2196a6" opacity="0.5"/>
+    <circle cx="-4" cy="5" r="4" fill="white" opacity="0.4"/>
+    <!-- Wings -->
+    <path d="M-26 30 L-50 70 L-26 60 Z" fill="#9b7dd4"/>
+    <path d="M26 30 L50 70 L26 60 Z" fill="#9b7dd4"/>
+  </g>
+
+  <!-- Child figure with raised arms (left) -->
+  <g transform="translate(72,195)">
+    <circle cy="-55" r="20" fill="#e08a2c"/>
+    <rect x="-16" y="-35" width="32" height="44" rx="10" fill="#e08a2c"/>
+    <!-- Raised arms -->
+    <line x1="-16" y1="-18" x2="-36" y2="-40" stroke="#e08a2c" stroke-width="9" stroke-linecap="round"/>
+    <line x1="16"  y1="-18" x2="36"  y2="-40" stroke="#e08a2c" stroke-width="9" stroke-linecap="round"/>
+    <line x1="-4" y1="9" x2="-10" y2="30" stroke="#e08a2c" stroke-width="8" stroke-linecap="round"/>
+    <line x1="4"  y1="9" x2="10"  y2="30" stroke="#e08a2c" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Parent / guide (right) -->
+  <g transform="translate(330,200)">
+    <circle cy="-60" r="22" fill="#2d9d78"/>
+    <rect x="-18" y="-38" width="36" height="50" rx="12" fill="#2d9d78"/>
+    <!-- Guiding hand extended left -->
+    <line x1="-18" y1="-22" x2="-44" y2="-10" stroke="#2d9d78" stroke-width="9" stroke-linecap="round"/>
+    <line x1="18"  y1="-22" x2="30"  y2="-10" stroke="#2d9d78" stroke-width="9" stroke-linecap="round"/>
+    <line x1="-5" y1="12" x2="-12" y2="36" stroke="#2d9d78" stroke-width="8" stroke-linecap="round"/>
+    <line x1="5"  y1="12" x2="12"  y2="36" stroke="#2d9d78" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Star burst (top of rocket) -->
+  <g transform="translate(185,42)">
+    <circle r="22" fill="#e08a2c" opacity="0.2"/>
+    <circle r="14" fill="#e08a2c" opacity="0.4"/>
+    <text x="0" y="8" font-size="20" text-anchor="middle" font-family="Arial">★</text>
+  </g>
+
+  <!-- Trajectory dots -->
+  <circle cx="120" cy="105" r="4" fill="#7c5cbf" opacity="0.4"/>
+  <circle cx="100" cy="130" r="3" fill="#7c5cbf" opacity="0.3"/>
+  <circle cx="88"  cy="158" r="3" fill="#7c5cbf" opacity="0.3"/>
+</svg>

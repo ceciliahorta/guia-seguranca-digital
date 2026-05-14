@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" rx="12" fill="#e8f0fc"/>
+
+  <!-- Shield -->
+  <path d="M200 38 L272 72 L272 158 Q272 215 200 245 Q128 215 128 158 L128 72 Z" fill="#3b7fd4"/>
+  <path d="M200 58 L255 88 L255 158 Q255 204 200 228 Q145 204 145 158 L145 88 Z" fill="#deeafa"/>
+
+  <!-- Lock body -->
+  <rect x="181" y="152" width="38" height="30" rx="6" fill="#3b7fd4"/>
+  <path d="M188 152 L188 138 Q188 123 200 123 Q212 123 212 138 L212 152" stroke="#3b7fd4" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="200" cy="166" r="5" fill="#deeafa"/>
+  <rect x="197" y="166" width="6" height="9" rx="3" fill="#deeafa"/>
+
+  <!-- Icon: Person (top-left) -->
+  <g transform="translate(58,78)">
+    <circle r="26" fill="white" stroke="#3b7fd4" stroke-width="2"/>
+    <circle cx="0" cy="-7" r="9" fill="#3b7fd4"/>
+    <path d="M-13 15 Q-13 5 0 5 Q13 5 13 15" fill="#3b7fd4"/>
+  </g>
+
+  <!-- Icon: Location (top-right) -->
+  <g transform="translate(342,78)">
+    <circle r="26" fill="white" stroke="#3b7fd4" stroke-width="2"/>
+    <path d="M0 -15 C-11 -15 -11 -2 -11 -2 C-11 10 0 20 0 20 C0 20 11 10 11 -2 C11 -2 11 -15 0 -15 Z" fill="#3b7fd4"/>
+    <circle cx="0" cy="-3" r="4.5" fill="white"/>
+  </g>
+
+  <!-- Icon: Phone (bottom-left) -->
+  <g transform="translate(58,202)">
+    <circle r="26" fill="white" stroke="#3b7fd4" stroke-width="2"/>
+    <rect x="-11" y="-17" width="22" height="34" rx="4" fill="none" stroke="#3b7fd4" stroke-width="2.5"/>
+    <line x1="-6" y1="-10" x2="6" y2="-10" stroke="#3b7fd4" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="12" r="3" fill="#3b7fd4"/>
+  </g>
+
+  <!-- Icon: Email (bottom-right) -->
+  <g transform="translate(342,202)">
+    <circle r="26" fill="white" stroke="#3b7fd4" stroke-width="2"/>
+    <rect x="-14" y="-10" width="28" height="20" rx="3" fill="none" stroke="#3b7fd4" stroke-width="2"/>
+    <path d="M-14 -8 L0 4 L14 -8" stroke="#3b7fd4" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Dashed connections -->
+  <line x1="83" y1="91" x2="138" y2="122" stroke="#3b7fd4" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.35"/>
+  <line x1="317" y1="91" x2="261" y2="122" stroke="#3b7fd4" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.35"/>
+  <line x1="83" y1="191" x2="138" y2="170" stroke="#3b7fd4" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.35"/>
+  <line x1="317" y1="191" x2="261" y2="170" stroke="#3b7fd4" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.35"/>
+</svg>
