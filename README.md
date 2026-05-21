@@ -14,23 +14,23 @@ O projeto foi desenvolvido com o objetivo de transformar conteúdos de seguranç
 
 A proposta é ajudar famílias e instituições de ensino a compreenderem melhor:
 
-Segurança digital;
-Proteção de dados pessoais;
-Importância de senhas seguras;
-Como identificar riscos na internet;
-Benefícios da tecnologia para crianças;
-Privacidade digital;
-Uso saudável da tecnologia;
-Papel dos pais e responsáveis no ambiente digital.
+* Segurança digital;
+* Proteção de dados pessoais;
+* Importância de senhas seguras;
+* Como identificar riscos na internet;
+* Benefícios da tecnologia para crianças;
+* Privacidade digital;
+* Uso saudável da tecnologia;
+* Papel dos pais e responsáveis no ambiente digital.
 
 O site possui uma interface inspirada em plataformas de leitura e documentação, priorizando:
 
-Visual limpo e moderno;
-Navegação intuitiva;
-Organização por capítulos;
-Responsividade para dispositivos móveis;
-Experiência de leitura confortável;
-Modo claro e escuro.
+* Visual limpo e moderno;
+* Navegação intuitiva;
+* Organização por capítulos;
+* Responsividade para dispositivos móveis;
+* Experiência de leitura confortável;
+* Modo claro e escuro.
 
 ### 🎯 Objetivo Acadêmico
 
